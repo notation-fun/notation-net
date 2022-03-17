@@ -1,0 +1,19 @@
+version 6.2.1
+
+source https://www.nuget.org/api/v2
+storage: none
+framework: auto-detect
+generate_load_scripts: true
+
+nuget Dap.Prelude
+nuget AlphaTab
+nuget Vaughan
+
+group Build
+    source https://www.nuget.org/api/v2
+    framework: net6.0
+    storage:none
+
+    nuget Dap.Build
+
+
